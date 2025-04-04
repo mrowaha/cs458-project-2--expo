@@ -45,12 +45,7 @@ export default function RootLayout() {
             headerShown: false,
           }}
         />
-        <Stack.Screen
-          name="helloworld"
-          options={{
-            headerShown: false,
-          }}
-        />
+        <Stack.Screen name="ai-survey" />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

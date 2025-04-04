@@ -11,7 +11,7 @@ export default function LoginScreen() {
   const handleLogin = () => {
     console.log("Email:", email);
     console.log("Password:", password);
-    router.push("/helloworld"); // Redirect after login
+    router.push("/ai-survey"); // Redirect after login
   };
 
   return (
